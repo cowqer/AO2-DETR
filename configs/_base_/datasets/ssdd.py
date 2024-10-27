@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'SARDataset'
-data_root = '../datasets/ssdd/'
+data_root = '/data/seekyou/ssdd/'
 img_norm_cfg = dict(
     mean=[21.55, 21.55, 21.55], std=[24.42, 24.42, 24.42], to_rgb=True)
 train_pipeline = [
